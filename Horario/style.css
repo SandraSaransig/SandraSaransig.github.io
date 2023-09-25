@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 180px;
+    margin-right: 30%;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+th:not(:first-child) {
+    border-left: 2px solid #fff; /* Línea divisoria entre los días */
+}
+
+.class-start-time {
+    font-weight: bold;
+}
+
+.dwes {
+    background-color: #fa5f49;
+}
+
+.dwec {
+    background-color: #f9a59a;
+}
+
+.diw{
+    background-color: #f9d99a;
+}
+
+.eie{
+    background-color: #add5fa;
+}
+
+.ang{
+    background-color: #95b8f6;
+}
+
+.tut{
+    background-color: #c5c6c8;
+}
+
+.daw{
+    background-color: #fdf9c4;
+}
+
+
+/* Línea divisoria entre las filas de contenido */
+tbody tr:not(:last-child) td {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Agregar la clase "row" a las celdas de la primera columna */
+tbody td:first-child {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
